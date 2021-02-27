@@ -13,7 +13,7 @@ class HalamanContactController extends Controller
      */
     public function index()
     {
-        return redirect('https://www.educastudio.com/contact-us');
+        return redirect('contact-us');
     }
 
     /**

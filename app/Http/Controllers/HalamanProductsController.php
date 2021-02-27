@@ -7,22 +7,17 @@ use Illuminate\Http\Request;
 class HalamanProductsController extends Controller
 {
     public function eduGames(){
-        echo '<center> <h2> Marbel - Educational Games <br> 
-           <a href="https://www.educastudio.com/category/marbel-edu-games">Klik Disini </a>'.'Untuk Melanjutkan Ke Halaman Edu Games';
+        return view('products.eduGames');
     }
-
     public function kidsGames(){
-        echo '<center> <h2> Marbel & Friends - Kids Games <br> 
-           <a href="https://www.educastudio.com/category/marbel-and-friends-kids-games">Klik Disini </a>'.'Untuk Melanjutkan Ke Halaman Kids Games';
+        return view('products.kidsGames');
     }
-
     public function story(){
-        echo '<center> <h2> Riri - Story Books <br> 
-           <a href="https://www.educastudio.com/category/riri-story-books">Klik Disini </a>'.'Untuk Melanjutkan Ke Halaman Story Books';
+        return view('products.story');
+    }
+    public function songs(){
+        return view('products.songs');
     }
 
-    public function songs(){
-        echo '<center> <h2> Kolak - Kids Songs <br> 
-           <a href="https://www.educastudio.com/category/kolak-kids-songs">Klik Disini </a>'.'Untuk Melanjutkan Ke Halaman Kids Songs';
-    }
+
 }
