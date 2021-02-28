@@ -34,10 +34,10 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                        <li class="nav-item">
-                            <a class="nav-link">Home</a>
+                       <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Products</a>
+                        <a href="{{ url('/product') }}" class="text-sm text-gray-700 underline">Products</a>
                         </li> 
                         <li class="nav-item">
                             <a class="nav-link">News</a>
