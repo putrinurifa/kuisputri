@@ -37,18 +37,18 @@
                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a href="{{ url('/product') }}" class="text-sm text-gray-700 underline">Products</a>
+                        <a href="{{ url('/products') }}" class="text-sm text-gray-700 underline">Products</a>
                         </li> 
                         <li class="nav-item">
-                            <a class="nav-link">News</a>
+                            <a href="{{ url('/news') }}" class="text-sm text-gray-700 underline">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Programs</a>
+                            <a href="{{ url('/programs') }}" class="text-sm text-gray-700 underline">Programs</a>
                         </li>
-                        <li class="nav-item">
+                        <li href="{{ url('/about-us') }}" class="text-sm text-gray-700 underline">
                             <a class="nav-link">About-Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li href="{{ url('/contact-us') }}" class="text-sm text-gray-700 underline">
                             <a class="nav-link">Contact-Us</a>
                         </li>
                     </ul>

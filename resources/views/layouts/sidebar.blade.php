@@ -70,10 +70,12 @@
 
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">Sidebar</a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+        <a href="#home">Home</a>
+        <a href="https://www.educastudio.com/category/marbel-edu-games">Educational Games</a>
+        <a href="https://www.educastudio.com/category/marbel-and-friends-kids-games">Kids Games</a>
+        <a href="https://www.educastudio.com/category/riri-story-books">Story Books</a>
+        <a href="https://www.educastudio.com/category/kolak-kids-songs">Songs Kids</a>
+        <a href="#">News</a>
         </div>
 </body>
 </html> 
