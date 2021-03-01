@@ -10,5 +10,6 @@ class HalamanNewsController extends Controller
     public function show($judul){
         
         return view('news', ['judul' => $judul]);
+        
     }
 }
