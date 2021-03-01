@@ -103,7 +103,7 @@
                     </div>
                     <div class="down-content">
                       <span>Kids Songs</span>
-                      <a href="https://www.educastudio.com/category/riri-story-books"><h4>Riri - Songs</h4></a>
+                      <a href="https://www.educastudio.com/category/kolak-kids-songs"><h4>Riri - Songs</h4></a>
                     </div>
                   </div>
                 </div>

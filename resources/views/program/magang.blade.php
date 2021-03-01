@@ -2,7 +2,7 @@
 @section('content')
     <div class="container">
         <h1 class="display-1"> Magang </h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur. </h3>
+        <a href="https://www.educastudio.com/program/magang"><h3>Lorem ipsum dolor sit amet, consectetur. </h3>
         <P>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum magna eget laoreet vulputate. Cras finibus lectus vel mi ornare, sollicitudin suscipit dolor vehicula. Cras porttitor condimentum felis quis vestibulum. Suspendisse ullamcorper tempus est pulvinar pretium. Mauris condimentum scelerisque metus, nec aliquam purus tempor ac. Morbi congue diam arcu, ac tristique nisi imperdiet nec. Maecenas condimentum ligula diam, a porta ligula mattis quis. Praesent pretium finibus ex. Pellentesque varius velit a dolor semper, non accumsan purus efficitur.
 

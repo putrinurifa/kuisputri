@@ -79,7 +79,7 @@ https://templatemo.com/tm-551-stand-blog
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ ('news') }} ">News</a>
+                <a class="nav-link" href="{{ ('news/{judul}') }} ">News</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{('contact-us')}}">Contact Us</a>

@@ -64,10 +64,7 @@ Route::prefix('products') -> group(function(){
     
     
 });
-Route::get('/news/{judul}', function($judul){
-    return view('news/' .$judul);
-
-});
+Route::get('/news/{judul}', [HalamanNewsController::class, 'show'])->name('news');
 Route::get("/news" , function(){
     return view('news');
 

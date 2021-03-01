@@ -1,59 +1,43 @@
-@extends('layouts.footer')
-@extends('layouts.content')
+@extends('layouts.app')
 @section('content')
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="heading-page header-text">
+      <section class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="text-content">
+                <h4>KIDS GAMES</h4>
+                <a href="https://www.educastudio.com/category/marbel-and-friends-kids-games"><h2><i><u>MARBEL - FRIENDS & KIDS GAMES<u></i></h2></a>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
     </div>
-    <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+    <!-- Banner Ends Here -->
+
+    <section class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="main-content">
+              <div class="row">
+                <div class="col-lg-8">
+                  <span>JOBSHEET 3 PRAKTIKUM 2</span>
+                  <h4>PUTRI & RAKHA</h4>
                 </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-        </div>
-    </div>
-    <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-        </div>
-    </div>
-    <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-        </div>
-    </div>
-    <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-        </div>
-    </div>
-  </div>
-</div>
-</div>
+      </div>
+    </section>
+  </body>
+</html>
 @endsection
-@extends('layouts.sidebar')
-@extends('layouts.header')
