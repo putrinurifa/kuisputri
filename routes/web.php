@@ -29,7 +29,10 @@ Route::prefix('products') -> group(function(){
     Route::get('/songs', [HalamanProductsController::class, 'songs']);
 });
 Route::get('/news/{judul}', function($judul){
-    return view($judul);
+    return view('news/' .$judul);
+});
+Route::get("/news" , function(){
+    return view('news');
 });
 
 Route::prefix('program') -> group(function(){
@@ -37,10 +40,13 @@ Route::prefix('program') -> group(function(){
     Route::get('/magang', [HalamanProgramController::class, 'magang']);
     Route::get('/kunjungan', [HalamanProgramController::class, 'kunjungan']);
 });
-Route::get('/about', function (){
+Route::get('/program' , function(){
+    return view('program');
+});
+Route::get('/about-us', function (){
     return view('about-us');
 });
-Route::resource('contact', HalamanContactController::class) ->only (['index']);
+Route::resource('contact-us', HalamanContactController::class) ->only (['index']);
 
 Auth::routes();
 

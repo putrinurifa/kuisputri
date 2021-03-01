@@ -34,22 +34,36 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                        <li class="nav-item">
-                            <a class="nav-link">Home</a>
+                            <a href="home" class="nav-link" >Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="products/eduGames">Edu Games</a>
+                                <a class="dropdown-item" href="products/kidsGames">Kids Games</a>
+                                <a class="dropdown-item" href="products/songs">Songs Games</a>
+                                <a class="dropdown-item" href="products/story">Story Games</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Products</a>
-                        </li> 
-                        <li class="nav-item">
-                            <a class="nav-link">News</a>
+                            <a class="nav-link" href="news">News</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Programs</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="program/karir">Karir</a>
+                                <a class="dropdown-item" href="program/kunjungan">Kunjugan</a>
+                                <a class="dropdown-item" href="program/magang">Magang</a>
+                               
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Programs</a>
+                            <a class="nav-link" href="about-us">About-Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">About-Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Contact-Us</a>
+                            <a class="nav-link" href="contact-us">Contact-Us</a>
                         </li>
                     </ul>
 
