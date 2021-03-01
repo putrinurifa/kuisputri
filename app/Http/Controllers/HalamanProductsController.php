@@ -8,6 +8,7 @@ class HalamanProductsController extends Controller
 {
     public function eduGames(){
         return view('products.eduGames');
+        
     }
     public function kidsGames(){
         return view('products.kidsGames');
