@@ -13,7 +13,7 @@ class HalamanContactController extends Controller
      */
     public function index()
     {
-        return redirect('contact-us');
+        return view('contact-us');
     }
 
     /**

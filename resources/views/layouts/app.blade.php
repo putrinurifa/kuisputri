@@ -55,19 +55,34 @@ https://templatemo.com/tm-551-stand-blog
                 </a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
+                <a class="nav-link" href="{{ ('about-us')}}">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ ('product') }} " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Product
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="{{ ('products/eduGames') }}">Edu Games</a>
+                  <a class="dropdown-item" href="{{ ('products/kidsGames') }}">Kids Games</a>
+                  <a class="dropdown-item" href="{{ ('products/songs') }}">Songs</a>
+                  <a class="dropdown-item" href="{{ ('products/story') }}">Story</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ ('program') }} " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Program
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="{{ ('program/karir') }}">Karir</a>
+                  <a class="dropdown-item" href="{{ ('program/kunjungan') }}">Kunjungan</a>
+                  <a class="dropdown-item" href="{{ ('program/magang') }}">Magang</a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="blog.html">Product</a>
+                <a class="nav-link" href="{{ ('news') }} ">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="post-details.html">Program</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="post-details.html">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="{{('contact-us')}}">Contact Us</a>
               </li>
             </ul>
           </div>

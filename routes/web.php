@@ -189,7 +189,7 @@ Route::get('/about-us', function (){
         return redirect('/contact-us');
     });
 });
-Route::resource('contact-us', HalamanContactController::class) ->only (['index']);
+Route::resource('/contact-us', HalamanContactController::class) ->only (['index']);
 
 Auth::routes();
 

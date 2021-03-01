@@ -1,5 +1,4 @@
-@extends('layouts.footer')
-@extends('layouts.content')
+@extends('layouts.app')
 @section('content')
 <div class="container">
         <img src="https://pngimage.net/wp-content/uploads/2018/06/gambar-kartun-anak-sekolah-png-1.png" class="img-fluid w-100" alt="...">  
@@ -37,5 +36,3 @@
         </div>
     </div>
 @endsection
-@extends('layouts.sidebar')
-@extends('layouts.header')

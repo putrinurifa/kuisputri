@@ -1,5 +1,4 @@
-@extends('layouts.footer')
-@extends('layouts.content')
+@extends('layouts.app')
 @section('content')
     <div class="container">
         <h1 class="display-1"> Karir </h1>
@@ -13,5 +12,3 @@
         </p>
     </div>
 @endsection
-@extends('layouts.sidebar')
-@extends('layouts.header')
