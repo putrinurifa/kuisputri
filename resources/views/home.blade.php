@@ -30,7 +30,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Edu Games</h5>
                             <p class="card-text">Marbel Educational Games</p>
-                            <a href="#https://www.educastudio.com/category/marbel-edu-games" class="btn btn-primary">Edu Games</a>
+                            <a href="products/eduGames" class="btn btn-primary">Edu Games</a>
                         </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Kids Games</h5>
                             <p class="card-text"> Marbel & Friends - Kids Games.</p>
-                            <a href="https://www.educastudio.com/category/marbel-and-friends-kids-games" class="btn btn-primary">Kids Games</a>
+                            <a href="products/kidsGames" class="btn btn-primary">Kids Games</a>
                         </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Stroy Books</h5>
                             <p class="card-text">Riri Story Books</p>
-                            <a href="https://www.educastudio.com/category/riri-story-books" class="btn btn-primary">Story Books</a>
+                            <a href="products/story" class="btn btn-primary">Story Books</a>
                         </div>
                 </div>
             </div>
@@ -62,14 +62,12 @@
                         <div class="card-body">
                             <h5 class="card-title">Songs</h5>
                             <p class="card-text">Kolak Kids Songs</p>
-                            <a href="https://www.educastudio.com/category/kolak-kids-songshttps://www.educastudio.com/category/kolak-kids-songs" class="btn btn-primary">Kids Songs</a>
+                            <a href="products/songs" class="btn btn-primary">Kids Songs</a>
                         </div>
                 </div>
             </div>
         </div>
     </div>
-
-
 @endsection
 @extends('layouts.sidebar')
 @extends('layouts.header')

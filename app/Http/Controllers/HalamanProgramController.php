@@ -7,14 +7,14 @@ use Illuminate\Http\Request;
 class HalamanProgramController extends Controller
 {
     public function karir(){
-       return view('programs.karir');
+       return view('program.karir');
     }
 
     public function magang(){
-       return view('programs.magang');
+       return view('program.magang');
     }
 
     public function kunjungan(){
-       return view('programs.kunjungan');
+       return view('program.kunjungan');
     }
 }
