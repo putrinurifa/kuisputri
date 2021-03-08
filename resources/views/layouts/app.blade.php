@@ -57,6 +57,9 @@ https://templatemo.com/tm-551-stand-blog
               <li class="nav-item">
                 <a class="nav-link" href="{{ ('about-us')}}">About Us</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ ('program/viewData')}}">Tampil Data</a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="{{ ('product') }} " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Product
