@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Post1;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 class Post1Factory extends Factory
 {
@@ -22,7 +23,9 @@ class Post1Factory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => $this->faker->name,
+            'asal' => $this->faker->name,
+            
         ];
     }
 }

@@ -15,6 +15,8 @@ class CreatePost1sTable extends Migration
     {
         Schema::create('post1s', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('asal');
             $table->timestamps();
         });
     }

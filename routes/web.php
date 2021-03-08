@@ -6,6 +6,7 @@ use App\Http\Controllers\HalamanProgramController;
 use App\Http\Controllers\HalamanContactController;
 use App\Http\Controllers\HalamanNewsController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Flight;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,24 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+Route::get('/flight' , function(){
+    $flight = DB::table('flights')->get();
+
+    return view('viewData', ['flight' => $flight]);
+
+});
+//Untuk retrieve semua database menggunakan method all()
+/*
+Route::get('/flight' , function(){
+    $flights = Flight::where('active', 1)
+               ->orderBy('name')
+               ->take(10)
+               ->get();
+});
+*/
+//not all data 
 
 Route::get('/', function(){
     return view('home');
