@@ -19,7 +19,7 @@ class Post1Seeder extends Seeder
     {
         
 
-        Post1::factory()->times(100)->create();
+        Post1::factory()->times(20)->create();
         
     }
 }

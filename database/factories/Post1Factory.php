@@ -24,7 +24,7 @@ class Post1Factory extends Factory
     {
         return [
             'name' => $this->faker->name,
-            'asal' => $this->faker->name,
+            'asal' => $this->faker->word,
             
         ];
     }

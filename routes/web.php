@@ -5,6 +5,9 @@ use App\Http\Controllers\HalamanProductsController;
 use App\Http\Controllers\HalamanProgramController;
 use App\Http\Controllers\HalamanContactController;
 use App\Http\Controllers\HalamanNewsController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\ViewDataController;
+
 use Illuminate\Support\Facades\Route;
 use App\Models\Flight;
 
@@ -40,6 +43,14 @@ Route::get('/flight' , function(){
 Route::get('/', function(){
     return view('home');
 });
+/*
+Route::get('/registrasi', function(){
+    return view('register');
+});
+*/
+Route::get('/registrasi' , [RegisterController::class, 'index']);
+Route::post('/registrasi' , [RegisterController::class, 'store']);
+
 
 Route::prefix('products') -> group(function(){
     Route::get('/eduGames' , [HalamanProductsController::class, 'eduGames']);
@@ -210,3 +221,5 @@ Route::resource('/contact-us', HalamanContactController::class) ->only (['index'
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/viewData', [ViewDataController::class,'index']);
