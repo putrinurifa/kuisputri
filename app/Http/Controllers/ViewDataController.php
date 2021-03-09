@@ -9,8 +9,9 @@ class ViewDataController extends Controller
 {
     //
     public function index(){
-        $users = DB::select('select * from post1s');
-        return view('viewData',['users'=>$users]);
-        }   
+        $users = DB::table('post1s')->paginate(5);
+
+        return view('viewData', ['users' => $users]);
+    }
 }
 
