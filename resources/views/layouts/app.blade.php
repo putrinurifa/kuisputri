@@ -116,7 +116,7 @@ https://templatemo.com/tm-551-stand-blog
         </div>
       </div>
     </footer>
-
+  
     <!-- Bootstrap core JavaScript -->
     <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
     <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
